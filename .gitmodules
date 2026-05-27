@@ -1,0 +1,6 @@
+[submodule ".claude/skills"]
+	path = .claude/skills
+	url = https://github.com/midspiral/lemmascript-skills.git
+[submodule "LemmaScript"]
+	path = LemmaScript
+	url = https://github.com/midspiral/LemmaScript.git
