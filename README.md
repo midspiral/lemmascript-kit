@@ -70,14 +70,12 @@ Start Claude Code from the kit root: the skills under `.claude/skills/` are auto
 `lemmascript` skill is the annotation-grammar reference; `design-doc`, `proof-review`, and
 `verified-codebase` cover the surrounding workflow.
 
-## Updating
-
-Bump the submodules to their latest upstream commits, then commit the new pointers:
+## Updating the kit
 
 ```sh
-git submodule update --remote
-git add LemmaScript .claude/skills
-git commit -m "bump submodules"
+git pull --ff-only
+git submodule update --init --recursive
+./setup.sh
 ```
 
 ## License
